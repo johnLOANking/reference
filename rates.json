@@ -1,0 +1,65 @@
+{
+  "mortgageRates": {
+    "dateUpdated": "Friday, 3/21/2025",
+    "programs": {
+      "conventional": {
+        "30year": {
+          "rate": 6.500,
+          "apr": 6.775
+        },
+        "15year": {
+          "rate": 5.750,
+          "apr": 6.188
+        }
+      },
+      "fha": {
+        "30year": {
+          "rate": 6.125,
+          "apr": 7.378
+        }
+      },
+      "va": {
+        "30year": {
+          "rate": 6.125,
+          "apr": 6.616
+        }
+      },
+      "jumbo": {
+        "30year": {
+          "rate": 6.375,
+          "apr": 6.621
+        }
+      },
+      "bankStatementIncomeVerification": {
+        "30year": {
+          "rate": 6.875,
+          "apr": 7.136
+        }
+      },
+      "dscrInvestmentProperty": {
+        "30year": {
+          "rate": 7.125,
+          "apr": 7.391
+        }
+      }
+    },
+    "disclaimers": [
+      "This communication is for informational purposes only, and is not intended for distribution to potential borrowers.",
+      "The above rates are current as of Friday, 3/21/2025. All rates and programs are subject to change or cancellation at any time, and without notice.",
+      "The content on this website does not represent a loan approval or a commitment to lend.",
+      "All rates based on 740 FICO score, 20% down and 0.5 points. Conventional rates are based on a $647,000 purchase price.",
+      "FHA/VA based on $500,000 purchase price, 25% down payment.",
+      "FHA/VA based on max allowable LTV based on the $500,000 loan amount.",
+      "$1,000,000 purchase price with 35% down for jumbo rates.",
+      "Bank statement and DSCR based on $1,000,000 price with 25% down.",
+      "DSCR assumes a 2-year prepayment penalty agreement.",
+      "Interest rates may only be locked by a licensed Loan Officer.",
+      "Actual fees and costs may vary based on your specific loan transaction."
+    ],
+    "contact": {
+      "phone": "85-LOAN KING",
+      "website": "www.johnloanking.com",
+      "nmls": "453428"
+    }
+  }
+}
