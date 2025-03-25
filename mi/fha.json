@@ -1,0 +1,67 @@
+{
+  "fhaMortgageInsurance": {
+    "upfrontMIP": 1.75,
+    "exceptions": [
+      "Streamline Refinance and Simple Refinance Mortgages used to refinance a previous FHA endorsed Mortgage on or before May 31, 2009",
+      "Hawaiian Home Lands (Section 247)"
+    ],
+    "annualMIP": {
+      "termMoreThan15Years": {
+        "loanAmountUpTo726200": {
+          "ltvUpTo90": {
+            "rateBps": 50,
+            "duration": "11 years"
+          },
+          "ltv90To95": {
+            "rateBps": 50,
+            "duration": "Mortgage term"
+          },
+          "ltvOver95": {
+            "rateBps": 55,
+            "duration": "Mortgage term"
+          }
+        },
+        "loanAmountOver726200": {
+          "ltvUpTo90": {
+            "rateBps": 70,
+            "duration": "11 years"
+          },
+          "ltv90To95": {
+            "rateBps": 70,
+            "duration": "Mortgage term"
+          },
+          "ltvOver95": {
+            "rateBps": 75,
+            "duration": "Mortgage term"
+          }
+        }
+      },
+      "termUpTo15Years": {
+        "loanAmountUpTo726200": {
+          "ltvUpTo90": {
+            "rateBps": 15,
+            "duration": "11 years"
+          },
+          "ltvOver90": {
+            "rateBps": 40,
+            "duration": "Mortgage term"
+          }
+        },
+        "loanAmountOver726200": {
+          "ltvUpTo78": {
+            "rateBps": 15,
+            "duration": "11 years"
+          },
+          "ltv78To90": {
+            "rateBps": 40,
+            "duration": "11 years"
+          },
+          "ltvOver90": {
+            "rateBps": 65,
+            "duration": "Mortgage term"
+          }
+        }
+      }
+    }
+  }
+}
