@@ -1,0 +1,12 @@
+{
+  "defaults": {
+    "taxes": {
+      "percentage": 1.25,
+      "description": "Annual property taxes as percentage of property value"
+    },
+    "insurance": {
+      "percentage": 0.35,
+      "description": "Annual insurance costs as percentage of property value"
+    }
+  }
+}
