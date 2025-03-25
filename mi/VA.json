@@ -1,0 +1,36 @@
+{
+  "vaFundingFee": {
+    "purchaseAndConstruction": {
+      "firstUse": {
+        "downPaymentLessThan5": 2.15,
+        "downPayment5OrMore": 1.5,
+        "downPayment10OrMore": 1.25
+      },
+      "afterFirstUse": {
+        "downPaymentLessThan5": 3.3,
+        "downPayment5OrMore": 1.5,
+        "downPayment10OrMore": 1.25
+      }
+    },
+    "cashOutRefinance": {
+      "firstUse": 2.15,
+      "afterFirstUse": 3.3
+    },
+    "notes": [
+      "If you used a VA-backed or VA direct home loan to purchase only a manufactured home in the past, you'll still pay the first-time funding fee.",
+      "The VA funding fee rates for refinancing loans don't change based on your down payment amount."
+    ],
+    "zeroFundingFeeEligibility": {
+      "description": "Some veterans may be eligible for a waived (zero) funding fee",
+      "eligibleGroups": [
+        "Veterans receiving VA compensation for service-connected disabilities",
+        "Veterans who would be entitled to receive compensation for service-connected disabilities if they did not receive retirement or active-duty pay",
+        "Veterans rated by VA as eligible to receive compensation as a result of pre-discharge disability examination and rating",
+        "Veterans entitled to receive compensation, but who were not receiving compensation because of withholding to recoup previous separation pay",
+        "Surviving spouses of veterans who died in service or from service-connected disabilities",
+        "Service members with a proposed or memorandum rating deemed eligible to receive compensation from pre-discharge disability examination and rating",
+        "Service members awarded the Purple Heart"
+      ]
+    }
+  }
+}
