@@ -1,12 +1,55 @@
 {
-  "defaults": {
-    "taxes": {
-      "percentage": 1.25,
-      "description": "Annual property taxes as percentage of property value"
-    },
-    "insurance": {
-      "percentage": 0.35,
-      "description": "Annual insurance costs as percentage of property value"
-    }
-  }
+  "states": [
+    {"state": "Alabama", "insuranceRate": 0.0095, "taxRate": 0.0041},
+    {"state": "Alaska", "insuranceRate": 0.0040, "taxRate": 0.0104},
+    {"state": "Arizona", "insuranceRate": 0.0081, "taxRate": 0.0062},
+    {"state": "Arkansas", "insuranceRate": 0.0115, "taxRate": 0.0062},
+    {"state": "California", "insuranceRate": 0.0035, "taxRate": 0.0125},
+    {"state": "Colorado", "insuranceRate": 0.0139, "taxRate": 0.0051},
+    {"state": "Connecticut", "insuranceRate": 0.0070, "taxRate": 0.0179},
+    {"state": "Delaware", "insuranceRate": 0.0034, "taxRate": 0.0061},
+    {"state": "Florida", "insuranceRate": 0.0147, "taxRate": 0.0083},
+    {"state": "Georgia", "insuranceRate": 0.0088, "taxRate": 0.0083},
+    {"state": "Hawaii", "insuranceRate": 0.0030, "taxRate": 0.0032},
+    {"state": "Idaho", "insuranceRate": 0.0058, "taxRate": 0.0063},
+    {"state": "Illinois", "insuranceRate": 0.0077, "taxRate": 0.0223},
+    {"state": "Indiana", "insuranceRate": 0.0068, "taxRate": 0.0081},
+    {"state": "Iowa", "insuranceRate": 0.0080, "taxRate": 0.0150},
+    {"state": "Kansas", "insuranceRate": 0.0125, "taxRate": 0.0129},
+    {"state": "Kentucky", "insuranceRate": 0.0083, "taxRate": 0.0080},
+    {"state": "Louisiana", "insuranceRate": 0.0155, "taxRate": 0.0055},
+    {"state": "Maine", "insuranceRate": 0.0039, "taxRate": 0.0124},
+    {"state": "Maryland", "insuranceRate": 0.0065, "taxRate": 0.0105},
+    {"state": "Massachusetts", "insuranceRate": 0.0073, "taxRate": 0.0114},
+    {"state": "Michigan", "insuranceRate": 0.0072, "taxRate": 0.0143},
+    {"state": "Minnesota", "insuranceRate": 0.0087, "taxRate": 0.0108},
+    {"state": "Mississippi", "insuranceRate": 0.0111, "taxRate": 0.0079},
+    {"state": "Missouri", "insuranceRate": 0.0093, "taxRate": 0.0097},
+    {"state": "Montana", "insuranceRate": 0.0097, "taxRate": 0.0074},
+    {"state": "Nebraska", "insuranceRate": 0.0150, "taxRate": 0.0163},
+    {"state": "Nevada", "insuranceRate": 0.0063, "taxRate": 0.0055},
+    {"state": "New Hampshire", "insuranceRate": 0.0040, "taxRate": 0.0210},
+    {"state": "New Jersey", "insuranceRate": 0.0060, "taxRate": 0.0240},
+    {"state": "New Mexico", "insuranceRate": 0.0077, "taxRate": 0.0078},
+    {"state": "New York", "insuranceRate": 0.0080, "taxRate": 0.0164},
+    {"state": "North Carolina", "insuranceRate": 0.0090, "taxRate": 0.0080},
+    {"state": "North Dakota", "insuranceRate": 0.0082, "taxRate": 0.0098},
+    {"state": "Ohio", "insuranceRate": 0.0065, "taxRate": 0.0156},
+    {"state": "Oklahoma", "insuranceRate": 0.0100, "taxRate": 0.0087},
+    {"state": "Oregon", "insuranceRate": 0.0053, "taxRate": 0.0087},
+    {"state": "Pennsylvania", "insuranceRate": 0.0057, "taxRate": 0.0153},
+    {"state": "Rhode Island", "insuranceRate": 0.0077, "taxRate": 0.0140},
+    {"state": "South Carolina", "insuranceRate": 0.0098, "taxRate": 0.0057},
+    {"state": "South Dakota", "insuranceRate": 0.0090, "taxRate": 0.0122},
+    {"state": "Tennessee", "insuranceRate": 0.0087, "taxRate": 0.0067},
+    {"state": "Texas", "insuranceRate": 0.0153, "taxRate": 0.0160},
+    {"state": "Utah", "insuranceRate": 0.0055, "taxRate": 0.0058},
+    {"state": "Vermont", "insuranceRate": 0.0040, "taxRate": 0.0180},
+    {"state": "Virginia", "insuranceRate": 0.0070, "taxRate": 0.0082},
+    {"state": "Washington", "insuranceRate": 0.0058, "taxRate": 0.0087},
+    {"state": "West Virginia", "insuranceRate": 0.0062, "taxRate": 0.0058},
+    {"state": "Wisconsin", "insuranceRate": 0.0063, "taxRate": 0.0161},
+    {"state": "Wyoming", "insuranceRate": 0.0073, "taxRate": 0.0061},
+    {"state": "Washington, D.C.", "insuranceRate": 0.0050, "taxRate": 0.0057}
+  ]
 }
